@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	C7DEC656142925AE0036A08A /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		addToTargets = (
+		);
+		codeSenseManager = C7DEC65B142925AE0036A08A /* Code sense */;
+		ignoreBreakpointsInProjectsDict = {
+		};
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					435,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 348644047;
+			PBXWorkspaceStateSaveDate = 348644047;
+		};
+		perUserProjectItems = {
+			C7DEC69E14298DE20036A08A /* PBXTextBookmark */ = C7DEC69E14298DE20036A08A /* PBXTextBookmark */;
+			C7E6746C14C7E35600C018F8 /* PBXTextBookmark */ = C7E6746C14C7E35600C018F8 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C7DEC65A142925AE0036A08A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C7DEC65A142925AE0036A08A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C7DEC65B142925AE0036A08A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C7DEC65F142925DC0036A08A /* Skeleton.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 455}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{0, 383}";
+		};
+	};
+	C7DEC69E14298DE20036A08A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C7DEC65F142925DC0036A08A /* Skeleton.html */;
+		name = "Skeleton.html: 6";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	C7E6746C14C7E35600C018F8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C7DEC65F142925DC0036A08A /* Skeleton.html */;
+		name = "Skeleton.html: 10";
+		rLen = 0;
+		rLoc = 225;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+}

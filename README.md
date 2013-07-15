@@ -1,4 +1,0 @@
-RSME
-====
-
-My Personal Website

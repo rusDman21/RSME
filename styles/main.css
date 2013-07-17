@@ -38,7 +38,7 @@ video {
  */
 
 [hidden] {
-    display: none;
+  display: none;
 }
 
 /* ==========================================================================
@@ -52,9 +52,9 @@ video {
  */
 
 html {
-    font-family: sans-serif; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    -ms-text-size-adjust: 100%; /* 2 */
+  font-family: sans-serif; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
 }
 
 /**
@@ -62,7 +62,12 @@ html {
  */
 
 body {
-    margin: 0;
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
 }
 
 /* ==========================================================================
@@ -96,23 +101,41 @@ a:hover {
   src: url('../fonts/Constantia.ttf') format('truetype');
 }
 
+body {
+  font-family: 'Constantia', 'Neuton', serif;
+  color: #333333;
+}
+
 header {
-  /*background-color: blue;*/
+  margin-top: 60px;
+  /*background-color: yellow;*/
 }
 
 h1, h2 {
-  /*background-color: red;*/
-  font-family: 'Constantia', 'Neuton', serif;
   font-weight: 400;
   margin: 0;
 }
 
 h1 {
-  font-size: 70px;
+  /*background-color: red;*/
+  font-size: 88px;
+  letter-spacing: 30px;
+  line-height: 88px;
+  margin-top: 32px;
 }
 
 h2 {
-  /*font-size: 2em;*/
+  /*background-color: blue;*/
+  font-size: 48px;
+  letter-spacing: 23px;
+  line-height: 48px;
+}
+
+p {
+  /*background-color: pink;*/
+  font-size: 21px;
+  margin: 60px 35px 0 35px;
+  line-height: 30px;
 }
 
 /**
@@ -230,6 +253,7 @@ img {
 
 .gravatar {
   float: left;
+  padding: 0 150px 0 60px;
 }
 
 /**

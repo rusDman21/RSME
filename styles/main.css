@@ -70,6 +70,8 @@ body {
   margin: 0 auto;
 }
 
+section
+
 /* ==========================================================================
    Links
    ========================================================================== */
@@ -252,8 +254,10 @@ img {
 }
 
 .gravatar {
+  border-radius: 8px;
   float: left;
-  padding: 0 150px 0 60px;
+  margin: 0 120px 0 60px;
+  background-color: pink;
 }
 
 /**

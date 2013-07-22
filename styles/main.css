@@ -452,10 +452,21 @@ table {
    Lists
    ========================================================================== */
 
-ul, ol, li {
-  list-style: none;
+
+ul, ol, {
+  margin: 0 auto;
   padding: 0;
+}
+
+
+li {
+  list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 

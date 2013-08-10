@@ -105,13 +105,17 @@ a:focus {
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active,
-a:hover {
-    outline: 0;
-}
-
 a {
   text-decoration: none;
+}
+
+a, a:active {
+  color: #333333;
+}
+
+a:active,
+a:hover {
+  outline: 0;
 }
 
 a:hover {
@@ -270,10 +274,8 @@ header p {
 }
 
 .projects p {
-  float: left;
   font-size: 18px;
   line-height: 27px;
-  margin: 0;
   width: 545px;
 }
 
@@ -300,19 +302,22 @@ svg:not(:root) {
 
 .feature-img {
   border-radius: 8px;
-  margin: 0 120px 0 60px;
   width: 200px; 
 }
 
-.profile {
+.about {
   background: url("../img/russell.jpg") center center no-repeat;
   float: left;
   height: 200px;
+  margin: 0 120px 0 60px;
 }
    
-.tsl-logo {
+.tsl {
   background: url("../img/tsl-logo-grey.png") 60px center no-repeat;
-  padding-left: 380px;
+}
+
+.proj-profile {
+  background: url("http://placekitten.com/200/200") 60px center no-repeat;
 }
 
 
@@ -335,16 +340,19 @@ table {
    ========================================================================== */
 
 
-ul, ol {
-  margin: 0 auto;
+ul, ol, li {
+  margin: 0;
   padding: 0;
 }
 
-
 li {
   list-style: none;
-  margin: 0;
-  padding: 0;
+}
+
+.projects li {
+  padding-left: 380px;
+  margin: 50px 0;
+  background-color: pink;
 }
 
 
@@ -365,14 +373,6 @@ li {
 .group {
   *zoom: 1;
 }
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-
-
 
 
 

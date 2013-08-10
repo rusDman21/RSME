@@ -360,13 +360,14 @@ li {
    ========================================================================== */
 
 footer {
-  background-color: orange;
+  background-color: green;
 }
 
-footer button {
-  display: block;
-  margin: 0 auto;
-} 
+button {
+  
+}
+
+
 
 
 /* ==========================================================================

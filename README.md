@@ -4,4 +4,4 @@ RSME
 My Personal Website
 
 
-This can be viewed at www.RussellSchoenbeck.com
+This can be viewed at http://RussellSchoenbeck.com

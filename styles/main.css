@@ -273,11 +273,7 @@ header p {
   margin: 75px 35px 0 35px;
 }
 
-.projects p {
-  font-size: 18px;
-  line-height: 27px;
-  width: 545px;
-}
+
 
 
 /* ==========================================================================
@@ -316,10 +312,6 @@ svg:not(:root) {
   background: url("../img/tsl-logo-grey.png") 60px center no-repeat;
 }
 
-.proj-profile {
-  background: url("http://placekitten.com/200/200") 60px center no-repeat;
-}
-
 
 /* ==========================================================================
    Tables
@@ -340,28 +332,14 @@ table {
    ========================================================================== */
 
 
-ul, ol, li {
-  margin: 0;
-  padding: 0;
-}
-
 li {
   list-style: none;
-}
-
-.projects li {
-  padding-left: 380px;
-  margin: 50px 0;
 }
 
 
 /* ==========================================================================
    Buttons
    ========================================================================== */
-
-footer {
-  background-color: orange;
-}
 
 footer button {
   display: block;

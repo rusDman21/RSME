@@ -1,277 +1,8 @@
-/* ==========================================================================
-   HTML5 display definitions
-   ========================================================================== */
-
-/**
- * Correct `block` display not defined in IE 8/9.
- */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-    display: block;
-}
-
-/**
- * Correct `inline-block` display not defined in IE 8/9.
- */
-
-audio,
-canvas,
-video {
-    display: inline-block;
-}
-
-/**
- * Address styling not present in IE 8/9.
- */
-
-[hidden] {
-  display: none;
-}
-
-
-/* ==========================================================================
-   Base
-   ========================================================================== */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-
-html {
-  font-family: sans-serif; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  -ms-text-size-adjust: 100%; /* 2 */
-}
-
-/**
- * Remove default margin.
- */
-
-body {
-  background: url('../img/debut_light.png');
-  margin: 0;
-}
-
-header {
-  margin-top: 10px;
-}
-
-.container {
-  width: 960px;
-  margin: 0 auto;
-}
-
-.social > li {
-  margin-left: 35px;
-}
-
-header:after, .social:before {
-  background-color: #333333;
-  border-radius: 4px;
-  content: "";
-  display: block;
-  height: 4px;
-  margin: 50px auto 50px;
-  width: 900px;
-}
-
-
-/* ==========================================================================
-   Links
-   ========================================================================== */
-
-/**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-
-a:focus {
-    outline: thin dotted;
-}
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-
-a {
-  text-decoration: none;
-}
-
-a, a:active {
-  color: #333333;
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
-a:hover {
-  background-color: rgba(255, 255, 255, .9);
-}
 
 
 /* ==========================================================================
    Typography
    ========================================================================== */
-
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
-
-abbr[title] {
-    border-bottom: 1px dotted;
-}
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-
-b,
-strong {
-    font-weight: bold;
-}
-
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
-
-dfn {
-    font-style: italic;
-}
-
-/**
- * Address differences between Firefox and other browsers.
- */
-
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
-}
-
-/**
- * Address styling not present in IE 8/9.
- */
-
-mark {
-    background: #ff0;
-    color: #000;
-}
-
-/**
- * Correct font family set oddly in Safari 5 and Chrome.
- */
-
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, serif;
-    font-size: 1em;
-}
-
-/**
- * Improve readability of pre-formatted text in all browsers.
- */
-
-pre {
-    white-space: pre-wrap;
-}
-
-/**
- * Set consistent quote types.
- */
-
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-
-small {
-    font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sup {
-    top: -0.5em;
-}
-
-sub {
-    bottom: -0.25em;
-}
-
-@font-face {
-  font-family: 'Constantia';
-  src: url('../fonts/Constantia.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Constantia', 'Neuton', serif;
-  color: #333333;
-}
-
-h1, h2, h6 {
-  font-weight: 400;
-  margin: 0;
-}
-
-h1 {
-  font-size: 88px;
-  letter-spacing: 30px;
-  line-height: 88px;
-  margin-top: 32px;
-}
-
-h2 {
-  font-size: 48px;
-  letter-spacing: 23px;
-  line-height: 48px;
-}
-
-h6 {
-  text-align: center;
-}
-
-header h6 {
-  padding-bottom: 40px;
-}
-
-footer h6 {
-  margin: 60px 0 20px;
-}
-
-header p {
-  font-size: 21px;
-  line-height: 30px;
-  margin: 75px 35px 0 35px;
-}
 
 .projects p {
   font-size: 18px;
@@ -284,69 +15,20 @@ header p {
    Embedded content
    ========================================================================== */
 
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
-
-img {
-    border: 0;
-}
-
-/**
- * Correct overflow displayed oddly in IE 9.
- */
-
-svg:not(:root) {
-    overflow: hidden;
-}
-
-.feature-img {
-  border-radius: 8px;
-  width: 200px; 
-}
-
-.about {
-  background: url("../img/russell.jpg") center center no-repeat;
-  float: left;
-  height: 200px;
-  margin: 0 120px 0 60px;
-}
-   
-.tsl {
-  background: url("../img/tsl-logo-grey.png") 60px center no-repeat;
-}
 
 .proj-profile {
   background: url("http://placekitten.com/200/200") 60px center no-repeat;
 }
 
 
-/* ==========================================================================
-   Tables
-   ========================================================================== */
-
-/**
- * Remove most spacing between table cells.
- */
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
 
 /* ==========================================================================
    Lists
    ========================================================================== */
 
-
 ul, ol, li {
   margin: 0;
   padding: 0;
-}
-
-li {
-  list-style: none;
 }
 
 .projects li {
@@ -355,40 +37,12 @@ li {
 }
 
 
-/* ==========================================================================
-   Buttons
-   ========================================================================== */
+
+
 
 footer {
-  background-color: blue;
+  background-color: orange;
 }
-
-button {
-  
-}
-
-
-
-
-/* ==========================================================================
-   ClearFix
-   ========================================================================== */
-
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-
-.group:after {
-  clear: both;
-}
-
-.group {
-  *zoom: 1;
-}
-
-
 
 
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */

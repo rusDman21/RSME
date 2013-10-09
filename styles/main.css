@@ -120,7 +120,14 @@ a:hover {
 
 a:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+  color: #222;
   padding: 2px 0;
+}
+
+header a {
+  color: #666;
+  font-size: 20px;
+  margin: 0 0 0 35px;
 }
 
 
@@ -277,10 +284,8 @@ footer h6 {
 header p {
   font-size: 21px;
   line-height: 30px;
-  margin: 75px 35px 0 35px;
+  margin: 75px 35px 20px 35px;
 }
-
-
 
 
 /* ==========================================================================

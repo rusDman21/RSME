@@ -12,10 +12,17 @@
    Embedded content
    ========================================================================== */
 
-.proj-profile {
+.proj-profile-myballot {
   background: url("../img/myballot-thumb.png") center top no-repeat;
 }
 
+.proj-profile-myshoefits {
+  background: url("../img/myshoefits-thumb.png") center top no-repeat;
+}
+
+.proj-profile-reneeflint {
+  background: url("../img/reneeflint-thumb.png") center top no-repeat;
+}
 
 /* ==========================================================================
    Lists
@@ -33,6 +40,7 @@ ul, ol, li {
   margin: 10px;
   overflow: hidden;
   padding: 200px 10px 10px;
+  width: 280px;
 }
 
 

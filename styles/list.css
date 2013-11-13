@@ -13,11 +13,17 @@
    Embedded content
    ========================================================================== */
 
-.proj-profile {
+.proj-profile-myballot {
   background: url("../img/myballot-thumb.png") 60px center no-repeat;
 }
 
+.proj-profile-myshoefits {
+  background: url("../img/myshoefits-thumb.png") 60px center no-repeat;
+}
 
+.proj-profile-reneeflint {
+  background: url("../img/reneeflint-thumb.png") 60px center no-repeat;
+}
 
 /* ==========================================================================
    Lists

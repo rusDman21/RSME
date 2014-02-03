@@ -78,7 +78,8 @@ header {
   margin-left: 35px;
 }
 
-header:after, .social:before {
+header:after,
+.social:before {
   background-color: #333333;
   border-radius: 4px;
   content: "";
@@ -87,6 +88,7 @@ header:after, .social:before {
   margin: 50px auto 50px;
   width: 900px;
 }
+
 
 
 /* ==========================================================================
@@ -324,7 +326,9 @@ svg:not(:root) {
   background: url("../img/tsl-logo-grey.png") 60px center no-repeat;
 }
 
-
+.belly {
+  background: url("../img/belly-logo-color.png") 60px center no-repeat;
+}
 
 
 

@@ -319,6 +319,10 @@ svg:not(:root) {
   width: 200px; 
 }
 
+.example-img {
+  max-width: 900px;
+}
+
 .about {
   background: url("../img/russell.jpg") center center no-repeat;
   float: left;

@@ -78,7 +78,7 @@ header {
   margin-left: 35px;
 }
 
-header:after,
+.projects:before,
 .social:before {
   background-color: #333333;
   border-radius: 4px;
@@ -283,10 +283,14 @@ footer h6 {
   margin: 60px 0 20px;
 }
 
+p {
+  text-align: justify;
+}
+
 header p {
   font-size: 21px;
   line-height: 30px;
-  margin: 75px 35px 20px 35px;
+  margin: 75px 80px 20px 60px;
 }
 
 
@@ -319,7 +323,7 @@ svg:not(:root) {
   background: url("../img/russell.jpg") center center no-repeat;
   float: left;
   height: 200px;
-  margin: 0 120px 0 60px;
+  margin: 0 160px 0 60px;
 }
    
 .tsl {
